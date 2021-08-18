@@ -1,0 +1,559 @@
+body{
+	margin:auto;
+	max-width: 1200px;
+	font-size: medium;
+}
+.item{
+	color: grey;
+    font-size: 1.1em;
+}
+.price{
+	font-size: 20px;
+}
+.liness{
+	display: inline-flex;
+	align-items: center;
+
+}
+.part img{
+	margin: auto;
+	padding: 0 10px;
+}
+
+.top{
+	display: inline-flex;
+}
+.top .navigation ul li{
+	display: inline;
+}
+.top .logo img{
+	padding-top: 18px;
+}
+.section2 .photo .img{display: inline-flex;
+
+}
+header .top .fas fa-search{
+	padding-right: 5px;
+
+}
+.search-box{
+	background: #E8E8E4;
+	position: absolute;
+	top: 90px;
+    left: 27%;
+	width: 350px;
+	height: 60px;
+	line-height: 60px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-top: 4px solid grey;
+	display: none ;
+}
+.search-box::before{
+	content: "";
+	position: absolute;
+	top: -32px;
+	left: 13px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid grey;
+}
+.search-box input[type="text"]{
+	width: 200px;
+	padding: 5px 10px;
+	margin-left: 23px;
+	border: 1px solid grey;
+	outline: none;
+
+}
+.search-box input[type="button"]{
+	width: 100px;
+	padding: 5px 0;
+	margin-left: 23px;
+	border: 1px solid grey;
+	outline: none;
+	cursor: pointer;
+	margin-left: -6px;
+
+
+}
+.section1{
+	display: inline-flex;
+}
+.section1{
+	justify-content: space-between;
+}
+.section1 .ba{
+	display: inline-flex;
+	
+}
+.all{
+	padding-left: 5px;
+}
+.all .imga{
+	padding-bottom: 4px;
+}
+.section2 .icons{
+	display: inline-flex;
+}
+.section2 .icons i{
+	text-align: center;
+}
+.section2 .icons .addto{
+	background-color: #64829c;
+	padding: 0 10px;
+	text-align: center;
+	color: #fff;
+	align-items: center;
+}
+.addto i{
+	padding-top: 10;
+}
+.part{
+	display: inline-flex;
+}
+.part span{
+	padding-top: 15px;
+	font-size: 1.3em;
+	padding-left: 5px;
+}
+.photo{
+
+	display: inline-flex;
+}
+.photo .img1{
+	padding-right: 20px;
+	text-align: center;
+
+}
+.photo .img2{
+	padding-right: 20px;
+	text-align: center;
+
+}
+.photo .img3{
+	padding-right: 20px;
+	text-align: center;
+
+}
+.photo .img4{
+	padding-right: 20px;
+	text-align: center;
+
+}
+.img1 p .stars{
+	text-align: center;
+}
+.img2 p .stars{
+	text-align: center;
+}
+.img3 p .stars{
+	text-align: center;
+}
+.img4 p .stars{
+	text-align: center;
+}
+
+
+
+header{
+	margin-top: 25px;
+	margin-bottom:25px;
+
+}
+header .top{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-flex;
+}
+header .logo{
+	padding-right: 25px;
+}
+header .navigation {color:#64829c;
+	margin-top: 15px;
+
+}
+header .navigation a{
+	color:#64829c;
+	padding: 11px;
+	text-decoration-line: none;
+}
+header .contact{
+	padding: 5px;
+	color: #64829c;
+	margin-left: 89px;
+	padding-top: 15px;
+	display: inline-flex;
+}
+header .contact p{
+	font-size: 1em;
+}
+.contact .iconbag{
+	font-size: 42.5px;
+    padding-left: 13px;
+}
+.contact span{
+	position: absolute;
+    color: white;
+    top: 49px;
+    right: 188px;
+    font-size: 1.6em;
+}
+.section4 .PRODUCT{
+	display: inline-flex;
+}
+.section5 .Product1{
+	display: inline-flex;
+}
+.imgs1{
+	display: inline-flex;
+}
+.img1 .stars p{
+	font-size: 1.2em;
+	
+}
+
+.section6{
+	display: inline-flex;
+}
+.part{
+	padding-top: 15px;
+	
+}
+
+.stara img{
+	width: 100%x;
+}
+.stara .line{
+	width: 49px;
+}
+footer{
+	background-color: black;
+
+}
+.section3 .line{
+	margin-top: 25px;
+ 	margin-bottom: 25px;
+}
+.imgaaaa{
+	display: inline-flex;
+	justify-content: space-between;
+}
+.imgaaaa img{
+	width: 283px;
+}
+.cri{
+	position: relative;
+}
+.cri img{
+	padding: 8px;
+}
+.cri span{
+	position: absolute;
+    top: 68px;
+    left: 113px;
+	background-color: black;
+	color: white;
+}
+.fit{
+	position: relative;
+}
+.fit  img{
+	padding: 8px;
+}
+.fit span{
+	position: absolute;
+	top: 68px;
+    left: 113px;
+	background-color: black;
+	color: white;
+}
+.foot{
+	position: relative;
+}
+.foot  img{
+	padding: 8px;
+}
+.foot span{
+	position: absolute;
+    top: 68px;
+    left: 113px;
+	background-color: black;
+	color: white;
+}
+.net{
+	position: relative;
+}
+.net  img{
+	padding: 8px;
+}
+.net span{
+	position: absolute;
+    top: 68px;
+    left: 113px;
+	background-color: black;
+	color: white;
+}
+.section4 .lines{
+	margin-top: 25px;
+ 	margin-bottom: 25px;
+
+}
+.lefta{
+	padding-left: 58px;
+    padding-right: 10px;
+}
+.section4 .Product .image{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section4 .Product .image1{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section4 .Product .image2{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section4 .Product .image3{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section4 .Product .image4{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section4 .Product .image5{
+	padding-right: 10px;
+	text-align: center; 
+}
+.section5 .Product1 .image01{
+	padding-right: 10px;
+	text-align: center;
+}
+.section5 .Product1 .image02{
+	padding-right: 10px;
+	text-align: center;
+}
+.section5 .Product1 .image03{
+	padding-right: 10px;
+	text-align: center;
+}
+.section5 .Product1 .image04{
+	padding-right: 10px;
+	text-align: center;
+}
+.section5 .Product1 .image05{
+	padding-right: 10px;
+	text-align: center;
+}
+.section5 .Product1 .image06{
+	padding-right: 10px;
+	text-align: center;
+}
+
+.section6{
+	padding-bottom: 25px;
+}
+.footer1{
+	margin-top: 10px;
+	background-color:  #131315;
+	width: 100%;
+	
+	
+}
+.footer1 .first{
+	display: inline-flex;
+	width: 95%;
+	margin: 20px 20px 40px 40px
+
+}
+.footer1 .first .a {
+	width: 25%;
+	color: white;
+}
+.footer1 .first .a img{
+	padding-right: 5px;
+
+}
+.footer1 .first .a a{
+	color: white;
+	text-decoration: none;
+}
+.footer1 .first .a li{
+	list-style: none;
+	padding-bottom: 5px;
+}
+.footer1 .first .b {
+	width: 25%;
+	color: white;
+}
+.footer1 .first .b i{
+	padding-right: 5px;
+	color: #64829c;
+}
+.footer1 .first .c img{
+	padding-right: 5px;
+}
+.footer1 .first .b li{
+	list-style: none;
+	padding-bottom: 5px;
+
+}
+.footer1 .first .a a{
+	color: white;
+}
+.footer1 .first .c {
+	width: 25%;
+	color: white;
+}
+.footer .first .c a{
+	text-decoration: none;
+}
+.footer1 .first .c li{
+	list-style: none;
+	padding-bottom: 5px;
+}
+.footer1 .first .a a{
+	color: white;
+}
+.footer1 .first .d {
+	width: 25%;
+	color: white;
+}
+.footer1 .first .d ul input{	
+	border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: none;
+    height:22px;
+}
+.format a{
+	text-decoration: none;
+	color: #64829c;
+}
+.footer .first .d button{
+	background-color: #64829c;
+
+}
+.footer2{
+	background-color: black;
+	display: flex;
+}
+.footer2 img{
+	padding:15px;
+	width: auto;
+}
+.footer2 .visa{
+	padding-top: 10px;
+}
+.footer2 .visa img{
+	width: 2.4pc;
+}
+.footer2 .mastero{
+	padding-top: 10px;
+}
+.footer2 .mastero img{
+	width: 2.4pc;
+}
+.d .button{
+	border:none;
+	background-color: #64829c;
+	 
+	height: 22px;
+    width: 60px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.section6{
+	width: 100%;
+
+}
+.blog{
+	width: 50%;
+	float: left;
+}
+.client{
+	width:50%;
+	float: right;
+}
+.blog .latest .poster .img_post{
+	border: 1px;
+	border-color:  #131315;
+	width: 45%;
+	float: left;
+	padding-right: 20px;
+}
+.blog .latest .poster .format{
+	margin-right: 35px;
+	color: #64829c;
+}
+.format a{
+	font-size: 1.3em;
+}
+.blog .latest .poster .format .fas{
+	
+	float: left;
+
+}
+.section6 .client .clien .jonny img{
+	width: 75px;
+    height: 75px;
+    padding-top: 20px;
+
+}
+
+
+.poster .format .arra{
+	color: #64829c;
+
+}
+.poster .format .calendar {
+ 	font-size: 45px;
+ 	color: #64829c
+
+
+}
+.calendar i{
+	padding-right: 10px;
+
+}
+
+
+.section6 .client .clien .jonny{
+	display: inline-flex;
+}
+.jonny{
+	display: inline-flex;
+	padding-left: 15px;
+}
+.section6 .client .clien .client_blog{
+	background-image: url(quma_03.jpg),url(quma_07.jpg);
+    background-repeat: no-repeat,no-repeat;
+    padding: 2px 4px;
+    background-position: top -2px left 10px, bottom right 10px;
+    background-color: #64829c;
+    font-style: italic;
+    color: #fff;
+    font-size: 18px;
+}
+.section6 .client .clien .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 15px 0 15px;
+	border-color: #64829c transparent transparent transparent;
+	margin-left: 35px;
+	padding-bottom: 5px;
+}
+.section6 .client .clien .client_blog .left{
+	float: left;
+
+}
+.section6 .client .clien .client_blog .right{
+	float: right;
+
+}
+.section6 .client .clien .jonny .nam{
+	padding-left: 50px;
+}
